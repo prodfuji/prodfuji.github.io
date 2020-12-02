@@ -1,0 +1,79 @@
+/* ----- General Styling ----- */
+body {
+  margin: 2em;
+  background-color: orange;
+  font-family: cursive;
+  font-size: 20px;
+  padding:0px 10px 0px 10px;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 40px;
+  letter-spacing: 5px;
+  color: yellow;
+	font-family: monospace;
+	background-color: black;
+  padding: 10px;
+}
+
+h2{
+	font-size: 30px;
+  color: maroon;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+li{
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-family:sans-serif;
+  display:inline;
+  padding:0 5%;
+}
+  li:hover{
+    font-family: fantasy;
+    font-size: 32px;
+  }
+
+/* ----- Section Styling ----- */
+.header {
+  background-color:#66CCAA;
+  color:white;
+  text-align:center;
+  padding:5px 0px 0px 0px;
+  background-image: url("https://img.buzzfeed.com/video-api-prod/assets/d609b69530e943e0be57f137e4f1ef6f/BFV18599_LawrencePageMacCheese-ThumbA1080.jpg");
+  background-size: 500px;
+  border: 10px solid black;
+}
+
+.content img{
+  float:left;
+  padding:0px 10px 10px 0px;
+}
+
+.footer {
+  text-align:center;
+  color:white;
+  clear:both;
+  background-color: black;
+}
+
+.footer p {
+  padding:5px;
+  text-align:right;
+}
+
+
+/* ----- Spoiler code -----*/
+.spoiler, .spoiler2{ 
+  color: black; 
+  background-color:black;
+}
+
+.spoiler:hover{
+  color: white;
+  }
+
+.spoiler2:hover { 
+  background-color:white; 
+  }
