@@ -1,7 +1,7 @@
 /* ----- General Styling ----- */
 body {
   margin: 2em;
-  background-color: orange;
+  background-color:#FFE16E;
   font-family: cursive;
   font-size: 20px;
   padding:0px 10px 0px 10px;
@@ -11,15 +11,15 @@ h1 {
   font-style: italic;
   font-size: 40px;
   letter-spacing: 5px;
-  color: yellow;
+  color: rgb(95, 46, 46);
 	font-family: monospace;
-	background-color: black;
+	background-color: rgba(255, 255, 255, 0.5);
   padding: 10px;
 }
 
 h2{
 	font-size: 30px;
-  color: maroon;
+  color: rgb(110, 28, 28);
   background-color: rgba(255, 255, 255, 0.5);
 }
 li{
@@ -41,7 +41,7 @@ li{
   color:white;
   text-align:center;
   padding:5px 0px 0px 0px;
-  background-image: url("https://img.buzzfeed.com/video-api-prod/assets/d609b69530e943e0be57f137e4f1ef6f/BFV18599_LawrencePageMacCheese-ThumbA1080.jpg");
+  background-image: "debunked-stamp-11523372414ra0hdtd8gq.png";
   background-size: 500px;
   border: 10px solid black;
 }
