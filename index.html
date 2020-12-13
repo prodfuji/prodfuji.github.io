@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css" />
@@ -16,7 +16,11 @@
      <!-- HEADER -->
     <div class="header">
       <ul>
-        <li>Home</li>
+        <li><a
+          href="./index.html"
+        >
+          HOME
+        </a></li>
         <li>FUJI</li>
         <li>BEATS</li>
         <li>
@@ -45,6 +49,12 @@
 
     <div class="content">
 
+      <!-- Local video test -->
+      <video width="320" height="240" controls>
+        <source src="Running_ Telus ad - audio sync for MUS306 HQ mp4.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
         <!-- Youtube embed -->
       <iframe width="560" height="315" src="https://www.youtube.com/embed/VepzHPniRkg" frameborder="0" 
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -67,7 +77,7 @@
 
       <img
         src="fuji_planet.png"
-        width="300"
+        style="max-width:100%;height:auto;"
       />
 
 

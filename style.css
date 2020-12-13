@@ -22,6 +22,12 @@ h2{
   color: rgb(110, 28, 28);
   background-color: rgba(255, 255, 255, 0.5);
 }
+
+a{
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 102, 0, 0.5);
+}
+
 li{
   font-size: 20px;
   background-color: rgba(0, 0, 0, 0.5);
